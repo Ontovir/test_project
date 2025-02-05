@@ -1,15 +1,15 @@
 *UI Тестирование главной страницы Effective-Mobile*
-[Описание проекта]
+—Описание проекта
 Этот проект содержит автоматизированные UI-тесты для главной страницы сайта Effective-Mobile.
 Тесты проверяют переход по основным разделам (О нас, Контакты и пр.) и соответствие URL-адресов.
 
-[Используемые технологии]
+—Используемые технологии
 Python 3.10
 Playwright (для UI тестирования)
 Allure (для отчетов)
 Docker (для контейнеризации тестов)
 
-[Установка и запуск]
+—Установка и запуск
 1. Установка зависимостей
 Убедитесь, что у вас установлен Python 3.10.
 Затем установите зависимости:
@@ -29,7 +29,7 @@ pytest --alluredir=allure-results
 
 allure serve allure-results
 
-[Запуск тестов в Docker]
+—Запуск тестов в Docker
 1. Сборка Docker-образа
 
 docker build -t ui-tests .
@@ -44,7 +44,7 @@ docker run --rm ui-tests
 docker cp <container_id>:/app/allure-results ./allure-results
 allure serve allure-results
 
-[Структура проекта]
+—Структура проекта
 test_project/
  ┣ pages/             # Page Object Model (POM) для UI тестов
  ┣ tests/             # Тесты на Playwright
