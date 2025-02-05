@@ -46,12 +46,12 @@ allure serve allure-results
 
 —Структура проекта
 test_project/
- ┣ pages/             # Page Object Model (POM) для UI тестов
- ┣ tests/             # Тесты на Playwright
- ┣ allure-results/    # Результаты Allure
- ┣ Dockerfile         # Файл для сборки контейнера
- ┣ requirements.txt   # Зависимости проекта
- ┣ README.md          # Этот файл
+┣ pages/             # Page Object Model (POM) для UI тестов
+┣ tests/             # Тесты на Playwright
+┣ allure-results/    # Результаты Allure
+┣ Dockerfile         # Файл для сборки контейнера
+┣ requirements.txt   # Зависимости проекта
+┣ README.md          # Этот файл
 
 [Дополнительно]
 *Следуйте лучшим практикам при написании автотестов.
